@@ -20,7 +20,7 @@ The environment can be created by running the command `conda env create -f <inse
 
 ## Installing Jupyter kernel from new Conda environment
 
-To install a Jupyter kernel from this environment to run the TEVA workshop Jupyter notebook, run the following command: `conda activate teva-workshop python -m ipykernel install --user --name teva_workshop_env`. This will create a kernel called `teva_workshop_env` which was installed from the `teva-workshop` Conda environment.
+To install a Jupyter kernel from this environment to run the TEVA workshop Jupyter notebook, run the following command: `python -m ipykernel install --user --name teva_workshop_env`. This will create a kernel called `teva_workshop_env` which was installed from the `teva-workshop` Conda environment.
 
 ## Selecting kernel for Jupyter notebook
 
